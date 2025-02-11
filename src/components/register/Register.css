@@ -1,0 +1,45 @@
+.main_form{
+    @apply  w-full h-screen  flex justify-center items-center 
+}
+.main_form_img{
+    @apply  w-[1050px] py-[20px] lg:pl-[52px] rounded-3xl  overflow-hidden
+
+}
+.main_inputs{
+    @apply w-full h-full  md:w-[500px] md:h-[530px] border-2 border-[#ffffff7a] rounded-3xl bg-[#ffffff3d] backdrop-blur-[5px]
+}
+.main_inputs h1{
+    @apply text-[24px] lg:text-[35px] pt-4 font-bold font-poppins text-white text-center 
+}
+.main_inputs p{
+    @apply text-[14px] lg:text-[18px] font-medium font-poppins text-white text-center
+}
+.main_inputs input{
+    @apply  mb-[20px] w-[100%] bg-transparent border-b-2  outline-none text-white font-medium
+}
+.main_inputs label{
+    @apply block text-white font-poppins font-semibold 
+}
+.main_form_input_field{
+    @apply pt-5 lg:pt-[40px] lg:pb-[144px] px-5 lg:px-[66px] 
+}
+.social_media .button{
+    @apply flex mx-auto px-[100px] py-[10px] active:scale-[1.05] duration-100 bg-[#62FFB4] text-[#696969] rounded-xl font-poppins font-semibold
+}
+.main_inputs .other_option{
+    @apply my-5 text-center text-white relative 
+    before:absolute before:top-[13px] before:left-[-15px]  md:before:w-[120px] before:h-[2px] before:bg-[#ffffff]  before:rounded-3xl
+    after:absolute after:top-[13px] after:right-[-15px]  md:after:w-[120px]  after:h-[2px] after:bg-[#ffffff]  after:rounded-3xl after:z-10
+}
+.social_media button{
+    @apply p-2 bg-white rounded-lg
+}
+.social_media button .icon{
+@apply md:w-8 md:h-8 w-4 h-4
+}
+.leaf{
+    @apply w-[570px] absolute top-[172px] left-[323px]
+}
+.Si_btn button {
+    @apply active:scale-[1.1] duration-[.3s] px-20 md:px-[114px] py-2 md:py-[13px] bg-brandColor text-[#696969] font-bold font-poppins text-[14px] md:text-[16px] rounded-[10px] 
+}
