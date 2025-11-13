@@ -6,20 +6,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-      "brandColor":"#62FFB4",
-      "firstColor":"#347928",
-      "secondColor":"#0866FF",
-      "thirdColor":"#3B3D3E",
-      "fourthColor":"#FCCD2A"
+      boxShadow: {
+        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)',
+
+
+        
+      },
     },
-  },
-    container:{
-      center:true,
+    container: {
+      center: true,
     },
-    fontFamily:{
-      "poppins":["Poppins", "serif"],
-    }
   },
   plugins: [],
 }
